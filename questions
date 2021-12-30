@@ -64,7 +64,33 @@
 //     console.log('click me',++count);
 // })
 
-                                
+
+                    //CALLBACK
+// function a(params) {
+//     for(i=0; i<=5;i++){
+//         console.log(i);
+//     }
+// }          
+// a()
+// function b(params) {
+//     for(i=0; i<=5;i=i+2){
+//         console.log(i);
+//     }
+// }   
+// console.log('happning in callback function');
+// setTimeout(b,1000)
+
+//second;
+
+
+
+
+
+
+
+
+
+
 
 
 
