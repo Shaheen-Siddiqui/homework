@@ -1,0 +1,73 @@
+                //SYNCRONUS TYPE QUESTIONS:-
+//  function alpha(params) {
+//     a=0
+//     while (a<=10) {
+//        console.log(a); 
+//     a++}
+// }
+// alpha()
+
+
+//second
+// array=[58,65,70,8,9,100];
+// function call() {
+// for(i=0; i<array.length;i++){
+//     if (array[i]%2==0){
+//         console.log(array[i]);
+//     }
+// } 
+// }
+// call()
+
+
+//Third
+// function a(params) {
+//     console.log('apple');
+//     console.log('balls');
+    
+// }
+// function b(params) {
+//     console.log('cat');
+//     console.log('232323232323');
+// }
+// function c(params) {
+//     console.log('i am runnig asyncrounsly');
+//     a()
+//     b()
+// }
+// c();
+
+                 //ASYNCRONUS TYPE QUESTIONS:-
+// arr=[20,30,40,10,19,40]
+// function allopcatee(params) {
+    
+// console.log('i am first');
+
+//     for(i in arr){
+// if (arr[i]>30){
+//     console.log(arr[i]);}
+//     }    
+// setTimeout(allopcatee,2000)
+// }
+// allopcatee()
+
+// //second
+// setTimeout(() => {
+//     console.log('call back is happning here');
+//     console.log('byerde');
+// }, 2000);
+
+
+// //thind
+// var count = 0;
+// document.getElementById('box').addEventListener('click',function pulsur(params) {
+//     console.log('click me',++count);
+// })
+
+                                
+
+
+
+
+
+
