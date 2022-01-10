@@ -82,30 +82,30 @@
 
 //second;
 
-// array=[
-//     {name:'himayre',lastname:'khan'},
-//     {name:'amayra',lastname:'Hasnain'},
-//     {name:'shanvi',lastname:'hamzah'}
-// ];
+array=[
+    {name:'himayre',lastname:'khan'},
+    {name:'amayra',lastname:'Hasnain'},
+    {name:'shanvi',lastname:'hamzah'}
+];
 
-// function enrollStudent() {
-//   setTimeout(()=>{
-//     empaty="";
-//     array.forEach((value)=>{
-//      empaty+=`<li>${value.name}</li>`
+function enrollStudent() {
+  setTimeout(()=>{
+    empaty="";
+    array.forEach((value)=>{
+     empaty+=`<li>${value.name}</li>`
      
-//     })
-//     document.body.innerHTML=empaty
-//   },2000)
-// }
+    })
+    document.body.innerHTML=empaty
+  },2000)
+}
 
-// function pushStudent(arg,arg2){
-//   setTimeout(()=>{
-//   array.push(arg)
-//     arg2()
-//   },3000)
-// }
-// pushStudent({name:'glimpse',lastname:'just one time'},enrollStudent)
+function pushStudent(arg,arg2){
+  setTimeout(()=>{
+  array.push(arg)
+    arg2()
+  },3000)
+}
+pushStudent({name:'glimpse',lastname:'just one time'},enrollStudent)
 
 
 
